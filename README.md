@@ -70,7 +70,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
 - [Calibration & Research](categories/calibration-research.md) — 39 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 85 entries
-- [Game & Simulation](categories/game-simulation.md) — 20 entries
+- [Game & Simulation](categories/game-simulation.md) — 21 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 8 entries
 - [Finance & Trading](categories/finance-trading.md) — 7 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 2 entries
@@ -531,6 +531,7 @@ Source file: [`categories/game-simulation.md`](categories/game-simulation.md)
 - [Magic Jev Ball](https://github.com/mikecann/magic-jev-ball) ![stars](https://img.shields.io/github/stars/mikecann/magic-jev-ball?style=flat-square&label=%E2%98%85) - Gaming: a 3D Magic 8 Ball you hold, shake and let go, where one Convex action asks Jev a `Choice` over the 20 classic answers for the user's question and the page shows Jev's probability for every answer, displaying the highest-probability one because the rounded probabilities occasionally disagree with the reported choice.
 - [Jev-mice](https://mice.jev.carsonsweet.com/) - Simulation: a mouse colony whose behaviour runs through Jev decisions on top of a deterministic engine.
 - [jev-plays](https://github.com/mansicer/jev-plays) ![stars](https://img.shields.io/github/stars/mansicer/jev-plays?style=flat-square&label=%E2%98%85) - Gaming: Craftax (Crafter) survival agent where deterministic code lists every feasible action with its facts and Jev picks one `Choice` per step, optionally guided by an LLM-written objective and standing rules; 3-seed ablations compare Jev over macro and raw actions against random, an LLM choosing every step, and Jev plus the planner.
+- [Jev Driver](https://github.com/reinhard-z/vision-jev) ![stars](https://img.shields.io/github/stars/reinhard-z/vision-jev?style=flat-square&label=%E2%98%85) - Simulation: a top-down driving game where Florence-2 captions each image dropped on the road in the browser and a Cloudflare Worker asks Jev three `Choice` questions (action, category, speed limit) about the caption and its lane or sidewalk, with no rule table overriding the answer; live at drive.mrza.ch, about 330 ms median and $0.00004 per decision.
 
 ### Robotics & Physical
 
