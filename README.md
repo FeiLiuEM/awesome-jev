@@ -69,7 +69,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 9 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
 - [Calibration & Research](categories/calibration-research.md) — 39 entries
-- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 85 entries
+- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 86 entries
 - [Game & Simulation](categories/game-simulation.md) — 21 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 8 entries
 - [Finance & Trading](categories/finance-trading.md) — 7 entries
@@ -507,6 +507,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 - [Sim](https://github.com/simstudioai/sim) ![stars](https://img.shields.io/github/stars/simstudioai/sim?style=flat-square&label=%E2%98%85) - Agent frameworks: open-source collaborative workspace for building, deploying, and monitoring AI agents featuring native TypeSafe System One evaluation and decision provider integration.
 - [RubyLLM](https://github.com/crmne/ruby_llm) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/crmne/ruby_llm?style=flat-square&label=%E2%98%85) - Ruby ecosystem: official Ruby gem connecting TypeSafe judgment models to RubyLLM with a native System One protocol for typed questions, probabilistic answers, and error normalization.
 - [jev-style](https://github.com/lawrence3699/jev-style) ![agent: Multi](https://img.shields.io/badge/agent-Multi-1F6FEB?style=flat-square) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/lawrence3699/jev-style?style=flat-square&label=%E2%98%85) - Local runtime: `pip install "jev-style[torch]"` (or `[mlx]` on Apple silicon) serves an open 0.8B Qwen3.5 decision model behind a System One-compatible `/v1/systemone` API that answers `Choice`, `Score`, and `Noul` questions with calibrated probabilities in one pass over inputs up to 25,600 tokens (0.15–0.2 s per short request with MLX on an M1 Max, after the first call), and ships a Claude Code guard that turns four `Noul` checks and a risk `Score` into allow, ask, or deny through code-owned thresholds.
+- [grev](https://github.com/aurorainfra/grev) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/aurorainfra/grev?style=flat-square&label=%E2%98%85) - Developer tooling: grep, sort, cut and uniq that match by meaning — `grev 'is a vegan meal' menu.txt` keeps the lines whose Jev `Noul` clears 0.5, sibling filters route by `Choice` and rank by `Score`, and the output is always your own input, never generated text.
 
 ### Game & Simulation
 
