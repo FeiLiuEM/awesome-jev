@@ -197,6 +197,7 @@ CATEGORIES = [
     "calibration-research.md",
     "infra-sdks-integrations.md",
     "game-simulation.md",
+    "robotics-physical.md",
     "finance-trading.md",
     "compliance-legal.md",
     "content-moderation.md",

@@ -103,7 +103,22 @@ Prefer medium-complexity searches such as:
 
 Avoid very long advanced-search expressions when the adapter is unstable.
 
-### 3. Chinese + English
+### 3. Industrial and physical-world channels
+
+The physical side of the ecosystem is invisible to every name search above: `jev ros2`,
+`jev embedded`, `jev plc` and `jev industrial` all return zero repositories, and the
+first entries in `robotics-physical.md` came from a web search instead. Search the
+sources that cover that industry, not the model name:
+
+- `gh search code 'api.typesafe.ai'` inside robotics and embedded repositories, or read
+  their tree directly — a factory integration rarely says "Jev" in its description.
+- ROS/ROS2 and embedded ecosystems: `gh search repos "ros2 decision model"`,
+  `gh search repos "plc ai classifier"`, `gh search repos "edge inference classifier"`.
+- Non-English industry writing. The 2–14 Hz decision-band framing — servo control around
+  1000 Hz, VLA models 5–50 Hz, task planning under 1 Hz — came from a Japanese robotics
+  column, not from GitHub.
+
+### 4. Chinese + English
 
 Search in both languages when useful. Useful Chinese patterns:
 
