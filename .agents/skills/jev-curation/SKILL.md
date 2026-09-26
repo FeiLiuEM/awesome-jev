@@ -72,9 +72,9 @@ Use **`categories/related-practices-discussions.md`** for:
 
 when they show credible real practice signals but do not yet have a strong standalone repo or case page.
 
-Main categories: classification-routing, verification-guardrails, scoring-ranking, agent-decisions, data-labeling-curation, evaluation-benchmarking, calibration-research, infra-sdks-integrations, related-practices-discussions.
-
-Open categories still being seeded: content-moderation, compliance-legal, game-simulation, scientific-pipelines.
+The category list, their order on the homepage, and which files are still being
+seeded all live in `CATEGORIES` and `OPEN_TRACKING` in `scripts/build-readme.py` —
+read them there rather than from a copy that goes stale.
 
 ## Working strategy
 
