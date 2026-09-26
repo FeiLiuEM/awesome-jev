@@ -114,20 +114,19 @@ sources that cover that industry, not the model name:
   their tree directly — a factory integration rarely says "Jev" in its description.
 - ROS/ROS2 and embedded ecosystems: `gh search repos "ros2 decision model"`,
   `gh search repos "plc ai classifier"`, `gh search repos "edge inference classifier"`.
-- Non-English industry writing.
+- Non-English industry writing. The 2–14 Hz decision-band framing — servo control around
+  1000 Hz, VLA models 5–50 Hz, task planning under 1 Hz — came from a Japanese robotics
+  column, not from GitHub.
 - **Search by endpoint, not by name.** `api.typesafe.ai` and `/v1/systemone` appear in
   code long before anyone writes the word Jev in a description. Two collisions make name
   search unreliable here: **System One is also an unrelated company** (systemone.com,
-  flooring/defect software), and MES, SCADA and PLC are generic industry acronyms, so
-  prose search returns other people's products.
+  flooring and defect software), and MES, SCADA and PLC are generic acronyms that return
+  other people's products in prose search.
 - **Expect the deployments to be private, and say so.** Factories rarely publish their
-  in-house classifier. What is citable will be the enabling layer (OPC-UA, Modbus,
-  BACnet and IEC 61131-3 tooling, bounded-action runtimes), vendor case studies and
-  conference talks. Absence of a public deployment is not evidence of absence of use —
-  record what is public and label it as such rather than concluding the field is empty.
- The 2–14 Hz decision-band framing — servo control around
-  1000 Hz, VLA models 5–50 Hz, task planning under 1 Hz — came from a Japanese robotics
-  column, not from GitHub.
+  in-house classifier. What stays citable is the enabling layer (OPC-UA, Modbus, BACnet
+  and IEC 61131-3 tooling, bounded-action runtimes), vendor case studies and conference
+  talks. Absence of a public deployment is not evidence of absence of use — record what
+  is public and label it as such rather than concluding the field is empty.
 
 ### 4. Chinese + English
 
