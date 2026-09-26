@@ -71,7 +71,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Calibration & Research](categories/calibration-research.md) — 39 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 86 entries
 - [Game & Simulation](categories/game-simulation.md) — 21 entries
-- [Robotics & Physical](categories/robotics-physical.md) — 8 entries
+- [Robotics & Physical](categories/robotics-physical.md) — 9 entries
 - [Finance & Trading](categories/finance-trading.md) — 7 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 2 entries
 - [Content Moderation](categories/content-moderation.md) — 8 entries
@@ -548,6 +548,7 @@ Source file: [`categories/robotics-physical.md`](categories/robotics-physical.md
 - [jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab) ![stars](https://img.shields.io/github/stars/khordoo/jev-reflex-autonomy-lab?style=flat-square&label=%E2%98%85) - Drone autonomy: a multi-drone lab where Jev supplies the reflex decisions, with an optional slower strategy layer guiding them.
 - [RoboJEV](https://github.com/lykycy123/RoboJEV) ![stars](https://img.shields.io/github/stars/lykycy123/RoboJEV?style=flat-square&label=%E2%98%85) - Robotics simulation: uses two-stage Jev `Choice` decisions over structured state to select intent and Cartesian motion/gripper commands for a Franka Panda in MuJoCo, rejecting malformed responses and checking task success independently through physics.
 - [Jev for Physical AI](https://github.com/robokrunch/jev-physical-ai) ![stars](https://img.shields.io/github/stars/robokrunch/jev-physical-ai?style=flat-square&label=%E2%98%85) - Fleet triage: runs Jev as the decision layer for a 10,000-robot warehouse fleet over 41 bilingual incident templates and publishes 0.527 s p50 latency, $24.57 per million decisions and 91.3% agreement with template labels, alongside a crossover against a self-hosted ModernBERT.
+- [EmbodiedJev](https://github.com/FBddcz/embodied-jev) ![stars](https://img.shields.io/github/stars/FBddcz/embodied-jev?style=flat-square&label=%E2%98%85) - Embodied robotics: MuJoCo decision workbench for a Franka Panda arm that compares TypeSafe Jev System One candidate decisions against reactive baselines and LLMs across pick, place, and obstacle tasks.
 
 ### Finance & Trading
 
