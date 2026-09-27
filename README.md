@@ -68,7 +68,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Agent Decisions](categories/agent-decisions.md) — 53 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 9 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
-- [Calibration & Research](categories/calibration-research.md) — 38 entries
+- [Calibration & Research](categories/calibration-research.md) — 39 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 85 entries
 - [Game & Simulation](categories/game-simulation.md) — 20 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 8 entries
@@ -415,6 +415,7 @@ Source file: [`categories/calibration-research.md`](categories/calibration-resea
 - [CLM](https://github.com/Contrastive-LM/CLM) ![stars](https://img.shields.io/github/stars/Contrastive-LM/CLM?style=flat-square&label=%E2%98%85) - Open alternative: an 8B System One model that answers the same `Choice` and `Noul` questions behind a TypeSafe-compatible API, matching Jev across computer-use, gaming and tool-calling with up to 9x lower latency and reporting 87.6% on Terminal-Bench 2.1 as a fine-tuned verifier.
 - [Bespoke Nimble](https://github.com/bespokelabsai/nimble) ![stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat-square&label=%E2%98%85) - Open alternative: a LoRA on Qwen3.5-9B that scores one allowed answer token per `Choice`, boolean or rubric-score question, released with its data pipeline, training config and eval harness under Apache-2.0, and reporting 90.1% on its 324-example holdout against Jev's 93.2%.
 - [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev) ![stars](https://img.shields.io/github/stars/FeiLiuEM/open-medical-jev?style=flat-square&label=%E2%98%85) - Medical evaluation: two frozen local readers answer one Noul-style yes/no probability per exam option, a fit-free router auto-releases items above the combined-confidence gate and escalates the rest, and a split-conformal candidate set bounds the error - landing within 2 points of hosted Jev on three 600-item national licensing exams with no fine-tuning, no distillation and no corpus.
+- [Jebadiah](https://github.com/getainode/jebadiah) ![stars](https://img.shields.io/github/stars/getainode/jebadiah?style=flat-square&label=%E2%98%85) - Open replica: Apache-2.0 decision models (27B, 9B, 4B on Qwen bases; bf16, GGUF and MLX) that answer `Choice`, `Noul` and `Score` questions with a probability for every option from one forward pass, and run anywhere: a standalone server with Jev's `/v1/systemone` wire and a playground, a llama.cpp script for the GGUF builds, or AINode (open-source local AI platform).
 
 ### Infra / SDKs / Integrations
 
