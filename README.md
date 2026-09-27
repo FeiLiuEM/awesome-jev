@@ -69,7 +69,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 9 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
 - [Calibration & Research](categories/calibration-research.md) — 40 entries
-- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 87 entries
+- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 88 entries
 - [Game & Simulation](categories/game-simulation.md) — 21 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
 - [Finance & Trading](categories/finance-trading.md) — 7 entries
@@ -431,6 +431,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 - [jev-mcp (blakestone-x)](https://github.com/blakestone-x/jev-mcp) ![stars](https://img.shields.io/github/stars/blakestone-x/jev-mcp?style=flat-square&label=%E2%98%85) - MCP ecosystem: MCP server exposing Jev classify, score, check, match, and screen as tools for any agent, with confidence on every answer.
 - [zio-typesafe-ai](https://github.com/jamesward/zio-typesafe-ai) ![stars](https://img.shields.io/github/stars/jamesward/zio-typesafe-ai?style=flat-square&label=%E2%98%85) - Scala ecosystem: ZIO client for TypeSafe AI with a typed DSL over Jev decisions.
 - [laya-mlx](https://github.com/mizorewww/laya-mlx) ![stars](https://img.shields.io/github/stars/mizorewww/laya-mlx?style=flat-square&label=%E2%98%85) - Local runtime: independent MLX port of the Laya checkpoints that runs typed decisions natively on Apple Silicon — 13.4 ms median end-to-end per short English decision, 7.4 ms with the multilingual checkpoint, and zero output tokens, with no PyTorch, Transformers runtime, or cloud API.
+- [laya-Ascend](https://github.com/zzhdbw/laya-Ascend) ![stars](https://img.shields.io/github/stars/zzhdbw/laya-Ascend?style=flat-square&label=%E2%98%85) - Local runtime: Ascend NPU fork of the Laya checkpoints that answers the same `Choice`, `Score` and `Noul` questions on Huawei 910B hardware — 37–47 ms median for a four-question request, 33.8x–70.9x faster than the same request on a single container CPU thread, with an output-equivalent SDPA decision head that avoids `torch_npu`'s CPU fallback on `aten::_transformer_encoder_layer_fwd`.
 - [TypeSafe AI Swift SDK](https://github.com/alterhq/typesafe-sdk-swift) ![stars](https://img.shields.io/github/stars/alterhq/typesafe-sdk-swift?style=flat-square&label=%E2%98%85) - Swift ecosystem: dependency-free Swift 6 client for Jev Choice, Score, and Noul questions with strict concurrency, configurable authentication and retries, and offline transport tests.
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) ![stars](https://img.shields.io/github/stars/Butochnikov/laravel-typesafe-jev?style=flat-square&label=%E2%98%85) - PHP ecosystem: unofficial Laravel integration for Jev with typed responses, async requests, scoped dependency injection, and testing fakes.
 - [advocaat](https://github.com/pithings/advocaat) ![stars](https://img.shields.io/github/stars/pithings/advocaat?style=flat-square&label=%E2%98%85) - Data tooling: small type-safe client for asking Jev questions about a dataset.
