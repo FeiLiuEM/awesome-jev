@@ -68,7 +68,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Agent Decisions](categories/agent-decisions.md) — 53 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 9 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
-- [Calibration & Research](categories/calibration-research.md) — 39 entries
+- [Calibration & Research](categories/calibration-research.md) — 40 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 86 entries
 - [Game & Simulation](categories/game-simulation.md) — 21 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
@@ -418,6 +418,7 @@ Source file: [`categories/calibration-research.md`](categories/calibration-resea
 - [Bespoke Nimble](https://github.com/bespokelabsai/nimble) ![stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat-square&label=%E2%98%85) - Open alternative: a LoRA on Qwen3.5-9B that scores one allowed answer token per `Choice`, boolean or rubric-score question, released with its data pipeline, training config and eval harness under Apache-2.0, and reporting 90.1% on its 324-example holdout against Jev's 93.2%.
 - [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev) ![stars](https://img.shields.io/github/stars/FeiLiuEM/open-medical-jev?style=flat-square&label=%E2%98%85) - Medical evaluation: two frozen local readers answer one Noul-style yes/no probability per exam option, a fit-free router auto-releases items above the combined-confidence gate and escalates the rest, and a split-conformal candidate set bounds the error - landing within 2 points of hosted Jev on three 600-item national licensing exams with no fine-tuning, no distillation and no corpus.
 - [Jebadiah](https://github.com/getainode/jebadiah) ![stars](https://img.shields.io/github/stars/getainode/jebadiah?style=flat-square&label=%E2%98%85) - Open replica: Apache-2.0 decision models (27B, 9B, 4B on Qwen bases; bf16, GGUF and MLX) that answer `Choice`, `Noul` and `Score` questions with a probability for every option from one forward pass, and run anywhere: a standalone server with Jev's `/v1/systemone` wire and a playground, a llama.cpp script for the GGUF builds, or AINode (open-source local AI platform).
+- [jevos](https://github.com/feder-cr/jev) ![stars](https://img.shields.io/github/stars/feder-cr/jev?style=flat-square&label=%E2%98%85) - Open alternative: MIT-licensed 1B model (MiniCPM5 cut to 17 layers with a one-logit head, GGUF q4_k_m at 619 MB) that answers only `Noul` yes/no questions on Jev's own `/v1/systemone` wire format, running CPU-only via llama.cpp at 54 ms short / 220 ms long on a laptop Core Ultra 7 255H against Jev's hosted 344/345 ms; `Choice` and `Score` return 422, and it scores 0.815 accuracy on 2,000 unseen policy yes/no questions against Jev's 0.927.
 
 ### Infra / SDKs / Integrations
 
