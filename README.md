@@ -63,7 +63,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 - [Classification & Routing](categories/classification-routing.md) — 46 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 9 entries
-- [Verification & Guardrails](categories/verification-guardrails.md) — 37 entries
+- [Verification & Guardrails](categories/verification-guardrails.md) — 38 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 37 entries
 - [Agent Decisions](categories/agent-decisions.md) — 53 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 9 entries
@@ -220,6 +220,7 @@ Source file: [`categories/verification-guardrails.md`](categories/verification-g
 - [JevGate](https://github.com/Tech-Byte-Frontier/jevgate) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Tech-Byte-Frontier/jevgate?style=flat-square&label=%E2%98%85) - Code review: CI and coding-agent gate that parses code locally and asks Jev `Noul`, `Choice` and `Score` questions about one function, file outline, candidate copy pair or test at a time, turns answers at 0.80 into `review` or `consider` findings with file and line, fails the build on `review`, and keeps undecided files as `uncertain` instead of clearing them.
 - [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) ![agent: DeepSeek Harness](https://img.shields.io/badge/agent-DeepSeek%20Harness-2D5BD7?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/AskTheWay/dsh-jev-interceptor?style=flat-square&label=%E2%98%85) - Coding agents: DeepSeek Harness plugin where a Jev `Choice` risk class plus `Noul` irreversibility, task-match, and injection checks gate every non-read-only tool call (deny confident high-risk, ask ambiguous, delegate the rest), `Noul` scope and reversibility questions auto-approve clearly-granted calls behind argument-evidence gating, and a per-message `Score` re-ranks what a referenced session keeps instead of oldest-first dropping — fail-closed to stock behavior, shadow mode with a `/jev-stats` command, 64 tests.
 - [claude-code-templates](https://github.com/davila7/claude-code-templates) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat-square&label=%E2%98%85) - Agent safety: CLI configuration suite for Claude Code featuring a `jev-guardrails` mod that screens prompts and turns against jailbreaks, harm, and policy breaches via TypeSafe System One.
+- [jevci](https://github.com/sumant1122/jevci) ![stars](https://img.shields.io/github/stars/sumant1122/jevci?style=flat-square&label=%E2%98%85) - Quality Gate: JevCI brings zero-latency quality enforcement to your terminal, git pre-commit hooks, CI/CD pipelines, and GitHub Actions. 
 
 ### Scoring & Ranking
 
