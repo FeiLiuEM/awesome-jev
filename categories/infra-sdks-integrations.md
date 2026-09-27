@@ -12,7 +12,7 @@ Use this category for ecosystem tooling built around Jev — SDKs, wrappers, gat
 
 - [eve](https://github.com/vercel/eve) - Agent frameworks: Vercel's eve engine ships Jev as the default evaluation model (`typesafe-ai/jev`) in its experimental evaluate path.
 - [AI CLI](https://github.com/vercel-labs/ai-cli) - Developer tooling: Vercel Labs CLI that can run Jev as the evaluation model for its `evaluate` command.
-- [jev-mcp (jkudish)](https://github.com/jkudish/jev-mcp) - MCP ecosystem: proof-of-concept MCP server that puts Jev claim verification, content screening, and candidate ranking behind standard MCP tools.
+- [jev-mcp (jkudish)](https://github.com/jkudish/jev-mcp) - MCP ecosystem: MCP server exposing eleven Jev judgment tools (verify, screen, noul, find, rerank, classify, decide, compare, extract, review, gate) behind fail-closed handling, with an agent skill shipped in the npm package so coding agents get judgment policy out of the box.
 - [jev-mcp (blakestone-x)](https://github.com/blakestone-x/jev-mcp) - MCP ecosystem: MCP server exposing Jev classify, score, check, match, and screen as tools for any agent, with confidence on every answer.
 - [zio-typesafe-ai](https://github.com/jamesward/zio-typesafe-ai) - Scala ecosystem: ZIO client for TypeSafe AI with a typed DSL over Jev decisions.
 - [laya-mlx](https://github.com/mizorewww/laya-mlx) - Local runtime: independent MLX port of the Laya checkpoints that runs typed decisions natively on Apple Silicon — 13.4 ms median end-to-end per short English decision, 7.4 ms with the multilingual checkpoint, and zero output tokens, with no PyTorch, Transformers runtime, or cloud API.
