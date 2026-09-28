@@ -63,7 +63,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 - [Classification & Routing](categories/classification-routing.md) — 49 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
-- [Verification & Guardrails](categories/verification-guardrails.md) — 44 entries
+- [Verification & Guardrails](categories/verification-guardrails.md) — 45 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 37 entries
 - [Agent Decisions](categories/agent-decisions.md) — 56 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
@@ -231,6 +231,7 @@ Source file: [`categories/verification-guardrails.md`](categories/verification-g
 - [jev-secret-guard](https://github.com/BasmaAbouzied0/jev-secret-guard) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![stars](https://img.shields.io/github/stars/BasmaAbouzied0/jev-secret-guard?style=flat-square&label=%E2%98%85) - Agent security: Claude Code PreToolUse hook that blocks known key formats locally and sends unknown high-entropy strings to Jev only in masked form for a `Noul` on whether they are real credentials, blocking at 0.80 and asking the human from 0.30 or whenever Jev is unavailable; 6 of 6 secrets and 0 of 6 benign strings were blocked in its published calibration.
 - [Perch](https://github.com/lakeday-org/perch) ![agent: Multi](https://img.shields.io/badge/agent-Multi-1F6FEB?style=flat-square) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/lakeday-org/perch?style=flat-square&label=%E2%98%85) - Code linting: semantic code linter that asks Jev about each method with its callers and callees in view, a `Noul` for whether it has a bug, a `Choice` for which kind and which line, and a `Score` for severity, plus language-filtered CWE `Noul` checks and custom rules written as sentences at repository, file or method level, failing CI on any answer over its floor.
 - [semcheck](https://github.com/arturobermejo/semcheck) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/arturobermejo/semcheck?style=flat-square&label=%E2%98%85) - Code review: Go linter whose rules are plain-English questions such as "does this log call write personal data?", asking Jev one `Noul` for each piece of code a rule applies to and reporting it above the rule's threshold; its two shipped rules were right on 12 of 12 sampled findings in three open-source projects.
+- [Cribrix](https://github.com/david96182/cribrix) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/david96182/cribrix?style=flat-square&label=%E2%98%85) - Retrieval / RAG: filters retrieved chunks with a Jev `Score` plus `Noul` checks for answer evidence and prompt injection, then withholds any draft whose claims fail a batched per-claim `Noul` or cite numbers absent from the sources; on its replayed 62-question golden set it answered 0 of 22 unanswerable questions, against 4 of 22 for naive top-5 RAG.
 
 ### Scoring & Ranking
 
