@@ -30,6 +30,10 @@ Update category files first, then refresh `README.md` from the current category 
 Always use `scripts/build-readme.py` instead of hand-editing the aggregate.
 `tags.json` holds the entry tag vocabulary; the table in `CONTRIBUTING.md` is
 generated from it, so add a tag value there rather than to either document.
+An `agent` value also needs an evidence rule in `SUPPORT` in
+`scripts/audit-tags.py`: without one, entries carrying it are never checked
+against their own text. The audit names any value it has no rule for, so add
+both in the same change.
 
 ## Hard inclusion rules
 
