@@ -61,7 +61,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 47 entries
+- [Classification & Routing](categories/classification-routing.md) — 48 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 44 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 37 entries
@@ -165,6 +165,7 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 - [Qualm](https://github.com/RoderickQiu/qualm) ![stars](https://img.shields.io/github/stars/RoderickQiu/qualm?style=flat-square&label=%E2%98%85) - Digital wellbeing: macOS menu bar app that reads the screen as text through the Accessibility API and asks Jev (or Kev, its local open-source counterpart) one `Choice` per user rule plus a `Noul` on whether the page is a payment, login or banking screen, stepping in with a pop-up only when a rule's probability clears its threshold and never on sensitive pages; on 119 trial pages with Kev, the short-video, feed, livestream and video rules had precision 1.00.
 - [Auto-optimizing Jev: half the errors, 1/7 the cost](https://kiln.tech/blog/auto_optimizing_jev_with_autoresearch) - Text classification: asks Jev a `Choice` over the readings of a Chinese polyphonic character while the model stays fixed and only the harness around it is optimised, ending at half the errors for a seventh of the cost.
 - [spending-effort-with-jev](https://github.com/Yaxin9Luo/spending-effort-with-jev) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Yaxin9Luo/spending-effort-with-jev?style=flat-square&label=%E2%98%85) - Coding agents: Claude Code plugin whose UserPromptSubmit hook asks Jev a `Choice` over `/effort` levels (low / medium / high / max / unclear) plus a `Noul` on whether a hands-off request has a fuzzy spec, showing a switch tip before Claude starts only at 0.7 confidence or above, with 95% of tips pointing to the right level on a three-rater held-out set.
+- [tab-jev](https://github.com/edamame-labs/tab-jev) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/edamame-labs/tab-jev?style=flat-square&label=%E2%98%85) - Tabular prediction: asks Jev a `Noul` on the target plus `Score` rubrics about each row's text, turns every option's probability into a column next to the row's numeric fields, and lets a tabular foundation model such as TabPFN learn from the labeled rows in context, reaching 0.745 AUC at 256 labels on Kickstarter funding against 0.682 for Jev alone with calibration.
 
 ### Adaptive & Realtime UI
 
