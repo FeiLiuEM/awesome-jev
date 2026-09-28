@@ -69,7 +69,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 9 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
 - [Calibration & Research](categories/calibration-research.md) — 40 entries
-- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 90 entries
+- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 91 entries
 - [Game & Simulation](categories/game-simulation.md) — 21 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
 - [Finance & Trading](categories/finance-trading.md) — 7 entries
@@ -518,6 +518,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 - [decision-gate](https://github.com/zachlandes/decision-gate) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/zachlandes/decision-gate?style=flat-square&label=%E2%98%85) - Cost and rate control: npm library that every Jev request in a loop goes through, which waits for room under 80% of the account's requests-per-minute and tokens-per-second limits, pauses every caller sharing the account, across processes, for the server's `Retry-After` delay when the service answers 429, refuses any request that would pass a per-key daily spend ceiling (USD 0.20 by default), and keeps an opt-in cache of answer probabilities under caller-chosen keys, so a repeated question over the same state is not paid for twice.
 - [ollaya](https://github.com/ollaya-dev/ollaya) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/ollaya-dev/ollaya?style=flat-square&label=%E2%98%85) - Local runtime: serves open decision models behind a wire-identical `/v1/systemone` endpoint, so an existing Jev client only has to point `TYPESAFE_BASE_URL` at the daemon, and reports its recommended model at 0.722 accuracy against Jev's 0.738 on typed decisions.
 - [pg-jev](https://github.com/realZachi/pg-jev) ![stars](https://img.shields.io/github/stars/realZachi/pg-jev?style=flat-square&label=%E2%98%85) - PostgreSQL: extension that filters, ranks and classifies rows by plain-language conditions, so `WHERE jev(people, 'the name is European')`, `jev_prob` and `jev_choice` each put one Jev judgment per row with calibrated probabilities.
+- [Tiltmeter](https://github.com/abe75ch/tiltmeter) ![type: proxy](https://img.shields.io/badge/type-proxy-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/abe75ch/tiltmeter?style=flat-square&label=%E2%98%85) - Monitoring: drop-in `/v1/systemone` proxy and Pydantic AI client that records every Jev answer's probabilities and alerts, without labels, when `jev-latest` switches versions, a question's answers drift (chi-square-tested PSI), answers crowd a decision threshold, or estimated accuracy falls.
 
 ### Game & Simulation
 
