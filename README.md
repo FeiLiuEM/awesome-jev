@@ -70,7 +70,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
 - [Calibration & Research](categories/calibration-research.md) — 40 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 91 entries
-- [Game & Simulation](categories/game-simulation.md) — 21 entries
+- [Game & Simulation](categories/game-simulation.md) — 22 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
 - [Finance & Trading](categories/finance-trading.md) — 7 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 2 entries
@@ -549,6 +549,7 @@ Source file: [`categories/game-simulation.md`](categories/game-simulation.md)
 - [Jev-mice](https://mice.jev.carsonsweet.com/) - Simulation: a mouse colony whose behaviour runs through Jev decisions on top of a deterministic engine.
 - [jev-plays](https://github.com/mansicer/jev-plays) ![stars](https://img.shields.io/github/stars/mansicer/jev-plays?style=flat-square&label=%E2%98%85) - Gaming: Craftax (Crafter) survival agent where deterministic code lists every feasible action with its facts and Jev picks one `Choice` per step, optionally guided by an LLM-written objective and standing rules; 3-seed ablations compare Jev over macro and raw actions against random, an LLM choosing every step, and Jev plus the planner.
 - [Jev Driver](https://github.com/reinhard-z/vision-jev) ![stars](https://img.shields.io/github/stars/reinhard-z/vision-jev?style=flat-square&label=%E2%98%85) - Simulation: a top-down driving game where Florence-2 captions each image dropped on the road in the browser and a Cloudflare Worker asks Jev three `Choice` questions (action, category, speed limit) about the caption and its lane or sidewalk, with no rule table overriding the answer; live at drive.mrza.ch, about 330 ms median and $0.00004 per decision.
+- [jev-goal-reflex](https://github.com/blakeandrewwood/jev-goal-reflex) ![stars](https://img.shields.io/github/stars/blakeandrewwood/jev-goal-reflex?style=flat-square&label=%E2%98%85) - Simulation: a Three.js box steered by plain-language instructions, where an LLM turns each instruction into steps of simultaneous actions and every decision asks Jev two `Score` questions (move, turn) and one `Noul` (jump), with code acting on a score only past a 0.33 dead zone, jumping above 0.45, holding still any axis the current step does not use, and sending no Jev request while no step is active.
 
 ### Robotics & Physical
 
