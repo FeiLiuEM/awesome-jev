@@ -62,7 +62,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 ## Current coverage
 
 - [Classification & Routing](categories/classification-routing.md) — 47 entries
-- [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 9 entries
+- [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 40 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 37 entries
 - [Agent Decisions](categories/agent-decisions.md) — 55 entries
@@ -179,6 +179,7 @@ Source file: [`categories/adaptive-realtime-ui.md`](categories/adaptive-realtime
 - [DWIM](https://github.com/rohit9mehta/dwim) ![stars](https://img.shields.io/github/stars/rohit9mehta/dwim?style=flat-square&label=%E2%98%85) - Desktop productivity: a macOS command palette that reads the frontmost app's menu tree through the accessibility API, asks Jev one `Noul` per menu item against the user's plain-language request, and presses the top match when it clears a probability threshold, falling back to a ranked list otherwise and never auto-running destructive items.
 - [SemanticSpace](https://semanticspace.dev/) - Semantic mapping: places phrases in 2D by asking Jev how strongly each one relates to two chosen axis concepts and using those scores as coordinates.
 - [shapeshift](https://github.com/anishfn/shapeshift) ![stars](https://img.shields.io/github/stars/anishfn/shapeshift?style=flat-square&label=%E2%98%85) - Input: one text box that morphs into the right UI as you type, asking Jev which control the sentence calls for, and running offline.
+- [Jevcast](https://github.com/RyanErkal/jevcast) ![stars](https://img.shields.io/github/stars/RyanErkal/jevcast?style=flat-square&label=%E2%98%85) - Desktop productivity: native macOS launcher and window manager that uses Jev to match natural-language window and action commands to known application workflows with local response caching.
 
 ### Verification & Guardrails
 
