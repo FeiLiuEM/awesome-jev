@@ -10,6 +10,7 @@ Use this category for programs where Jev gates output — verifying claims, revi
 
 ## Entries
 
+- [jev-risk-check-provider](https://github.com/caiovicentino/jev-risk-check-provider) - Agent payments: an x402 `risk-check` provider where Jev scores agent counterparties as typed Noul/Choice/Score questions into a code-controlled 0-100 score, issuing an ES256-signed attestation per verdict; 540-call scale run (99.76% at threshold 65-75, 0 false positives) and a 5-iteration 1,500-case adversarial red-team loop (100% adversarial accuracy) with ~$0.00005/decision at p50 ~400ms.
 - [Edward](https://github.com/VeridicalTech/Edward) - Agent operations: one batched Jev `Choice` over the cross-turn coding-agent trajectory decides continue, pause, or escalate, with low-confidence verdicts routed to a human while deterministic code keeps dangerous-command blocking, budget caps, and an Ed25519-signed receipt chain.
 - [is-malicious](https://github.com/luantak/is-malicious) - Software supply-chain security: asks Jev `Noul` checks about source and build files, escalates suspicious chunks for a second pass, and returns implicated files and lines before execution.
 - [jev-review](https://github.com/devagrawal09/jev-review) - Software engineering: staged code-review workflow and local dashboard where Jev gates each review stage before a change advances.
