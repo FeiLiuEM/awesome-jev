@@ -66,7 +66,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Verification & Guardrails](categories/verification-guardrails.md) — 44 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 37 entries
 - [Agent Decisions](categories/agent-decisions.md) — 56 entries
-- [Data Labeling & Curation](categories/data-labeling-curation.md) — 9 entries
+- [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
 - [Calibration & Research](categories/calibration-research.md) — 40 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 91 entries
@@ -346,6 +346,7 @@ Source file: [`categories/data-labeling-curation.md`](categories/data-labeling-c
 - [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) ![stars](https://img.shields.io/github/stars/shimo4228/jev-research-pipeline?style=flat-square&label=%E2%98%85) - Research monitoring: asks Jev Noul gates and Score dimensions per (paper, research question) on each daily fetch through Pydantic AI's typesafe model, keeps sources above a code-side threshold, and hands them to Qwen for question-centric Obsidian notes; offline tests replay recorded cassettes.
 - [GroundingJev](https://github.com/xyzzzh/GroundingJev) ![stars](https://img.shields.io/github/stars/xyzzzh/GroundingJev?style=flat-square&label=%E2%98%85) - Visual annotation: a Jev-inspired Qwen3.5-0.8B model that maps an image and referring expression to four bounding-box coordinates in one forward pass, reporting an 8.61× inference speedup over its autoregressive base model.
 - [jevextract](https://github.com/gabazureus/jevextract) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/gabazureus/jevextract?style=flat-square&label=%E2%98%85) - Information extraction: LangExtract alternative where code proposes candidate spans with exact offsets and Jev answers one `Choice` per span (a schema class or none) plus a `Noul` per sentence-level class, keeping answers above a per-class threshold and flagging close calls for review, with a published benchmark measuring 10–26× lower cost than LangExtract on Gemini 3.5 Flash but lower F1 (84.2 vs 88.5 on its bilingual jx-bench).
+- [JevSpan](https://github.com/lzq-0529/jev-span) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/lzq-0529/jev-span?style=flat-square&label=%E2%98%85) - Information extraction: zero-shot named entity recognition that splits text at punctuation, asks Jev one `Choice` over every candidate window per entity type, verifies each nominee with a second `Choice` (the type, none, mixed or partial) and settles its boundary with a third, averaging 73.7 strict F1 across 12 Chinese and English NER benchmarks against 72.1 for direct extraction with Qwen3.8-27B.
 
 ### Evaluation & Benchmarking
 
