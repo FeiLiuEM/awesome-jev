@@ -61,7 +61,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 50 entries
+- [Classification & Routing](categories/classification-routing.md) — 51 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 45 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 38 entries
@@ -168,6 +168,7 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 - [spending-effort-with-jev](https://github.com/Yaxin9Luo/spending-effort-with-jev) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Yaxin9Luo/spending-effort-with-jev?style=flat-square&label=%E2%98%85) - Coding agents: Claude Code plugin whose UserPromptSubmit hook asks Jev a `Choice` over `/effort` levels (low / medium / high / max / unclear) plus a `Noul` on whether a hands-off request has a fuzzy spec, showing a switch tip before Claude starts only at 0.7 confidence or above, with 95% of tips pointing to the right level on a three-rater held-out set.
 - [tab-jev](https://github.com/edamame-labs/tab-jev) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/edamame-labs/tab-jev?style=flat-square&label=%E2%98%85) - Tabular prediction: asks Jev a `Noul` on the target plus `Score` rubrics about each row's text, turns every option's probability into a column next to the row's numeric fields, and lets a tabular foundation model such as TabPFN learn from the labeled rows in context, reaching 0.745 AUC at 256 labels on Kickstarter funding against 0.682 for Jev alone with calibration.
 - [tinystruct-typesafe-sdk](https://github.com/tinystruct/tinystruct-typesafe-sdk) ![stars](https://img.shields.io/github/stars/tinystruct/tinystruct-typesafe-sdk?style=flat-square&label=%E2%98%85) - SDK: TypeSafe Jev integration library for building type-safe classification and routing decisions with structured outputs.
+- [TetraJev](https://github.com/FeiLiuEM/tetrajev) ![stars](https://img.shields.io/github/stars/FeiLiuEM/tetrajev?style=flat-square&label=%E2%98%85) - General decisions: locally-deployed decision layer for complex decision problems — four readings from two frozen open-weight readers, fused fit-free and routed by agreement with calibrated release gates; benchmarked across eight decision suites plus the RAG reranking pass, including DecisionBench's 35 real-world task categories. No training; does not call the TypeSafe API.
 
 ### Adaptive & Realtime UI
 
