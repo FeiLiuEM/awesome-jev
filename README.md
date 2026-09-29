@@ -68,7 +68,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Agent Decisions](categories/agent-decisions.md) — 56 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 33 entries
-- [Calibration & Research](categories/calibration-research.md) — 41 entries
+- [Calibration & Research](categories/calibration-research.md) — 43 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 92 entries
 - [Game & Simulation](categories/game-simulation.md) — 23 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
@@ -433,6 +433,8 @@ Source file: [`categories/calibration-research.md`](categories/calibration-resea
 - [Jebadiah](https://github.com/getainode/jebadiah) ![stars](https://img.shields.io/github/stars/getainode/jebadiah?style=flat-square&label=%E2%98%85) - Open replica: Apache-2.0 decision models (27B, 9B, 4B on Qwen bases; bf16, GGUF and MLX) that answer `Choice`, `Noul` and `Score` questions with a probability for every option from one forward pass, and run anywhere: a standalone server with Jev's `/v1/systemone` wire and a playground, a llama.cpp script for the GGUF builds, or AINode (open-source local AI platform).
 - [jevos](https://github.com/feder-cr/jev) ![stars](https://img.shields.io/github/stars/feder-cr/jev?style=flat-square&label=%E2%98%85) - Open alternative: MIT-licensed 1B model (MiniCPM5 cut to 17 layers with a one-logit head, GGUF q4_k_m at 619 MB) that answers only `Noul` yes/no questions on Jev's own `/v1/systemone` wire format, running CPU-only via llama.cpp at 54 ms short / 220 ms long on a laptop Core Ultra 7 255H against Jev's hosted 344/345 ms; `Choice` and `Score` return 422, and it scores 0.815 accuracy on 2,000 unseen policy yes/no questions against Jev's 0.927.
 - [NeoHorse-Jev](https://github.com/TokenRhythm/NeoHorse/tree/main/jev) ![stars](https://img.shields.io/github/stars/TokenRhythm/NeoHorse?style=flat-square&label=%E2%98%85) - Open alternative: Apache-2.0 4B decision model from TokenRhythm that answers `Choice`, `Noul` and `Score` questions via prefill-only inference on NeoHorse-1-4B, deployable with vLLM, SGLang or a native Python/CLI/HTTP runtime, scoring 77.70 across six text benchmark groups (highest among open-weight entries with complete results in its published comparison).
+- [Jeff](https://github.com/firelex/jeff) ![stars](https://img.shields.io/github/stars/firelex/jeff?style=flat-square&label=%E2%98%85) - Open alternative: MIT-licensed Qwen3.5 and Gemma 4 fine-tunes answering `choice`, `noul` and `score` on the same `/v1/systemone` format at about 22 ms per decision, published with a panel that measures Jev itself at 0.828 accuracy and 0.053 ECE while stating it claims no statistical significance.
+- [AutoJev](https://github.com/denis-pplx/autojev) ![stars](https://img.shields.io/github/stars/denis-pplx/autojev?style=flat-square&label=%E2%98%85) - Open recipe: a 27B multimodal decision model trained with full-weight SFT on 73,000 examples over one H200, serving `choice`, `noul` and `score` on `/v1/systemone` with per-checkpoint provenance and calibration plots released.
 
 ### Infra / SDKs / Integrations
 
